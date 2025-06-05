@@ -370,20 +370,18 @@ To start server on your localhost, run command below.
 php artisan serve
 ```
 
-For developing Vue front-end, you have to install npm modules by this command:
+For front-end development run from the new `frontend` directory:
 ```
+cd frontend
 npm install
-```
-
-To compiles and hot-reloads for front-end development. Then run this command:
-```
-npm run hot
+npm run dev
 ```
 
 ### Building Your App for Production
-To compiles for production build, run this command
+To compile the standalone front-end, run
 ```
-npm run prod
+cd frontend
+npm run build
 ```
 
 ## Support
