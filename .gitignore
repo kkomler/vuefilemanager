@@ -6,8 +6,10 @@
 /storage/framework/cache/*
 /vendor
 /resources/babel.babel
-.idea
 .env
+frontend/node_modules
+.idea
+frontend/dist
 .env.backup
 .env.testing
 .php-cs-fixer.cache
